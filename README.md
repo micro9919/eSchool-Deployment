@@ -129,7 +129,7 @@ This project is beginner project for a DevOps related role.
   ```bash
   sudo journalctl -u eschool.service
   ```
-- **Possible Issue**: Port `8081` already in use.
+- **Possible Issue**: Port `8080` already in use.
   - Solution: Kill the process using the port:
     ```bash
     sudo netstat -tuln | grep 8081
